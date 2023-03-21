@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.AlfaPeople.PluginsDyn1", "Logistics.AlfaPeople.Plugins\Logistics.AlfaPeople.PluginsDyn1.csproj", "{11E8C53F-09CD-417F-9118-5F5B6D7F7586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.AlfaPeople.Models", "Logistiscs.AlfaPeople.Models\Logistics.AlfaPeople.Models.csproj", "{A6CBFBB5-89B5-4022-8880-2C2F1E288D1C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Logistics.AlfaPeople.SharedProject", "Logistics.AlfaPeople.SharedProject\Logistics.AlfaPeople.SharedProject.shproj", "{9A387942-FA95-4CE3-ABB0-DCC12BBCBFD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.AlfaPeople.PluginsDyn2", "Logistics.AlfaPeople.PluginsDyn2\Logistics.AlfaPeople.PluginsDyn2.csproj", "{EB3E9DA1-850A-46E3-812B-F1B824FEAEC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.AlfaPeople.Customizations", "Logistics.AlfaPeople.Customizations\Logistics.AlfaPeople.Customizations.csproj", "{031FFDE2-E651-4375-99DF-8C5480980A77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11E8C53F-09CD-417F-9118-5F5B6D7F7586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E8C53F-09CD-417F-9118-5F5B6D7F7586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E8C53F-09CD-417F-9118-5F5B6D7F7586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E8C53F-09CD-417F-9118-5F5B6D7F7586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CBFBB5-89B5-4022-8880-2C2F1E288D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CBFBB5-89B5-4022-8880-2C2F1E288D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CBFBB5-89B5-4022-8880-2C2F1E288D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CBFBB5-89B5-4022-8880-2C2F1E288D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3E9DA1-850A-46E3-812B-F1B824FEAEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3E9DA1-850A-46E3-812B-F1B824FEAEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3E9DA1-850A-46E3-812B-F1B824FEAEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3E9DA1-850A-46E3-812B-F1B824FEAEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{031FFDE2-E651-4375-99DF-8C5480980A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031FFDE2-E651-4375-99DF-8C5480980A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031FFDE2-E651-4375-99DF-8C5480980A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031FFDE2-E651-4375-99DF-8C5480980A77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9E23B61-884B-4CAC-A071-6F766C1DD789}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Logistics.AlfaPeople.SharedProject\Logistics.AlfaPeople.SharedProject.projitems*{11e8c53f-09cd-417f-9118-5f5b6d7f7586}*SharedItemsImports = 4
+		Logistics.AlfaPeople.SharedProject\Logistics.AlfaPeople.SharedProject.projitems*{9a387942-fa95-4ce3-abb0-dcc12bbcbfd8}*SharedItemsImports = 13
+		Logistics.AlfaPeople.SharedProject\Logistics.AlfaPeople.SharedProject.projitems*{eb3e9da1-850a-46e3-812b-f1b824feaec5}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal

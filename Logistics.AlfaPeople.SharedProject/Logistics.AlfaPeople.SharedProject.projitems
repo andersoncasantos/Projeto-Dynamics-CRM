@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>9a387942-fa95-4ce3-abb0-dcc12bbcbfd8</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Logistics.AlfaPeople.SharedProject</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BaseModels\ModelCore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\ContaController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\ContatoController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\GrupoDeUnidadesController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\OportunidadeController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\ProdutoController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\UnidadeController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LogisticsISV\ActionCore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LogisticsISV\PluginCore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Conta.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Contato.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\GrupoDeUnidades.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Oportunidade.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Produto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Unidade.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Singleton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)VO\ContaVO.cs" />
+  </ItemGroup>
+</Project>
